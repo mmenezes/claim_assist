@@ -1,0 +1,5 @@
+INSERT INTO Claim (id, hospital, patient_name, claim_summary, claim_description) VALUES (1, 'Apollo Hospital', 'Govind Sharma', 'Diagnostic Services', 'X-ray, chest, single view MRI, CT Scan, abdomen and pelvis');
+INSERT INTO Claim (id, hospital, patient_name, claim_summary, claim_description) VALUES (2, 'Tata Memorial Hospital', 'Shweta Singh', 'Diagnostic Services', 'X-ray, chest, single view MRI, CT Scan, abdomen and pelvis');
+INSERT INTO Claim (id, hospital, patient_name, claim_summary, claim_description) VALUES (3, 'Apollo Hospital', 'Sameer Kumar', 'Diagnostic Services', 'X-ray, chest, single view MRI, CT Scan, abdomen and pelvis');
+INSERT INTO Claim (id, hospital, patient_name, claim_summary, claim_description) VALUES (4, 'Nanavati Hospital', 'Raj Khosla', 'Diagnostic Services', 'X-ray, chest, single view MRI, CT Scan, abdomen and pelvis');
+INSERT INTO Claim (id, hospital, patient_name, claim_summary, claim_description) VALUES (5, 'Breach Candy Hospital Trust', 'Manu Sharma', 'Diagnostic Services', 'X-ray, chest, single view MRI, CT Scan, abdomen and pelvis');
