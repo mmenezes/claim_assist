@@ -27,7 +27,7 @@ public class Underwriting {
     private String medicalHistory;
 
     @Column(name = "risk_meter")
-    private Long riskMeter;
+    private String riskMeter;
 
     @Column(name = "rate_meter")
     private Long rateMeter;
@@ -83,11 +83,11 @@ public class Underwriting {
         this.medicalHistory = medicalHistory;
     }
 
-    public Long getRiskMeter() {
+    public String getRiskMeter() {
         return riskMeter;
     }
 
-    public void setRiskMeter(Long riskMeter) {
+    public void setRiskMeter(String riskMeter) {
         this.riskMeter = riskMeter;
     }
 
