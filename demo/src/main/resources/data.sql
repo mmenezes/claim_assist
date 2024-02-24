@@ -12,3 +12,9 @@ INSERT INTO Underwriting (id, age, gender, bmi, occupation, medical_history, ris
 
 Insert INTO Bill (claim_id, bill_id, bill_date, bill_description, bill_amount) values (1, 1, '2023-01-02', 'Consultation charges', 200 );
 Insert INTO Bill (claim_id, bill_id, bill_date, bill_description, bill_amount) values (1, 2, '2023-01-02', 'ECG charges', 200 );
+Insert INTO Bill (claim_id, bill_id, bill_date, bill_description, bill_amount) values (2, 3, '2023-01-03', 'Consultation charges', 200 );
+Insert INTO Bill (claim_id, bill_id, bill_date, bill_description, bill_amount) values (2, 4, '2023-01-04', 'ECG charges', 200 );
+Insert INTO Bill (claim_id, bill_id, bill_date, bill_description, bill_amount) values (3, 5, '2023-01-03', 'Consultation charges', 200 );
+Insert INTO Bill (claim_id, bill_id, bill_date, bill_description, bill_amount) values (3, 6, '2023-01-04', 'ECG charges', 200 );
+Insert INTO Bill (claim_id, bill_id, bill_date, bill_description, bill_amount) values (3, 7, '2023-01-04', 'X-Ray charges', 400 );
+Insert INTO Bill (claim_id, bill_id, bill_date, bill_description, bill_amount) values (3, 8, '2023-01-05', 'Sonography charges', 500 );
