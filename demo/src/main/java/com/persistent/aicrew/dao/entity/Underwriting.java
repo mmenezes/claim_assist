@@ -33,7 +33,7 @@ public class Underwriting {
     private Long rateMeter;
 
     @Column(name = "approved")
-    private String approved;
+    private boolean approved;
 
     public Integer getId() {
         return id;
@@ -99,11 +99,11 @@ public class Underwriting {
         this.rateMeter = rateMeter;
     }
 
-    public String getApproved() {
+    public boolean getApproved() {
         return approved;
     }
 
-    public void setApproved(String approved) {
+    public void setApproved(boolean approved) {
         this.approved = approved;
     }
 }
