@@ -39,9 +39,9 @@ public class UnderwritingService {
         List<Underwriting> result = new ArrayList<Underwriting>();
         underwritingsRepository.findAll().forEach(result::add);;
 
-        for(Underwriting underwriting: result){
-            underwriting.setRiskMeter(processRiskMeter(underwriting));
-        }
+//        for(Underwriting underwriting: result){
+//            underwriting.setRiskMeter(processRiskMeter(underwriting));
+//        }
         return result;
     }
 
