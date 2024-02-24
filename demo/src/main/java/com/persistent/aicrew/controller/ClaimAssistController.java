@@ -30,5 +30,4 @@ public class ClaimAssistController {
 		List <Claim> claimList = claimService.fetchAllClaims();
 		return new ResponseEntity<List <Claim>>(claimList, HttpStatus.OK);
 	}
-	
 }
