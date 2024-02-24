@@ -9,3 +9,6 @@ INSERT INTO Underwriting (id, age, gender, bmi, occupation, medical_history, ris
 INSERT INTO Underwriting (id, age, gender, bmi, occupation, medical_history, risk_meter, rate_meter, approved) VALUES (3, 35, 'Male', 28.3, 'Teacher', 'Hypertension', 90, 0.04, false);
 INSERT INTO Underwriting (id, age, gender, bmi, occupation, medical_history, risk_meter, rate_meter, approved) VALUES (4, 28, 'Female', 26.8, 'Software Developer', 'No issues', 85, 0.035, true);
 INSERT INTO Underwriting (id, age, gender, bmi, occupation, medical_history, risk_meter, rate_meter, approved) VALUES (5, 40, 'Male', 30.1, 'Nurse', 'Diabetes', 95, 0.05, false);
+
+Insert INTO Bill (claim_id, bill_id, bill_date, bill_description, bill_amount) values (1, 1, '2023-01-02', 'Consultation charges', 200 );
+Insert INTO Bill (claim_id, bill_id, bill_date, bill_description, bill_amount) values (1, 2, '2023-01-02', 'ECG charges', 200 );
